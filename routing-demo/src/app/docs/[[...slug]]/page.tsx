@@ -7,7 +7,7 @@ const Docs = async ({ params }: { params: Promise<{ slug: string[] }> }) => {
       <h1>
         Viewing docs for feature {slug[0]} and concept {slug[1]}
       </h1>
-    );
+    ); 
   } else if (slug?.length === 1) {
     return <h1>View docs for feature {slug[0]}</h1>;
   }
